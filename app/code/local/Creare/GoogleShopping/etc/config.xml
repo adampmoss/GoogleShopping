@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Creare_GoogleShopping>
+			<version>0.1.0</version>
+		</Creare_GoogleShopping>
+	</modules>
+	<global>
+		<models>
+			<crearegoogleshopping>
+				<class>Creare_GoogleShopping_Model</class>
+			</crearegoogleshopping>
+		</models>
+		<helpers>
+			<crearegoogleshopping>
+				<class>Creare_GoogleShopping_Helper</class>
+			</crearegoogleshopping>
+		</helpers>
+	</global>
+	<frontend>
+		<routers>
+			<crearegoogleshopping>
+				<use>standard</use>
+				<args>
+				  <module>Creare_GoogleShopping</module>
+				  <frontName>crearegoogleshopping</frontName>
+				</args>
+			</crearegoogleshopping>
+		</routers>
+	</frontend>
+</config>
