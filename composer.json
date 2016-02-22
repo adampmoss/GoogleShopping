@@ -1,0 +1,15 @@
+{
+    "name": "creare/googleshopping",
+    "type": "magento-module",
+    "homepage": "https://github.com/adampmoss/GoogleShopping",
+    "description": "This is a very basic Google Shopping extension that requires basic Magento development skills to customise - there is little in the way of CMS. The module is designed to be as stripped back as possible to allow flexibility.",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors": [
+    {
+    	"name": "Adam Moss",
+    	"role": "Web Developer"
+    }
+    ]
+}

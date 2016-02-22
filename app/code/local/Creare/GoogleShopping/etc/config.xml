@@ -2,7 +2,7 @@
 <config>
 	<modules>
 		<Creare_GoogleShopping>
-			<version>0.1.0</version>
+			<version>1.0.0</version>
 		</Creare_GoogleShopping>
 	</modules>
 	<global>
