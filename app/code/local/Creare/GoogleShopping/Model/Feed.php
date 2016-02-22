@@ -83,6 +83,7 @@ class Creare_GoogleShopping_Model_Feed extends Mage_Core_Model_Abstract
 
 		$curPage = $request->getParam('page');
 		$pageSize = $request->getParam('pagesize');
+		$attributeSet = $request->getParam('attributeset');
 
 		$collection = Mage::getModel('catalog/product')->getCollection()
 			 ->addAttributeToSelect('*')
@@ -96,6 +97,11 @@ class Creare_GoogleShopping_Model_Feed extends Mage_Core_Model_Abstract
 		{
 			$collection->setCurPage($curPage);
 			$collection->setPageSize($pageSize);
+		}
+
+		if (!empty($attributeSet))
+		{
+			$collection->addAttributeToFilter('attribute_set_id', $attributeSet);
 		}
 
 		$collection->clear();
