@@ -1,4 +1,4 @@
-# Creare Google Shopping
+# Google Shopping Extension for Magento
 
 This is a very basic Google Shopping extension that requires Magento development skills to customise - there is little in the way of CMS.
 
