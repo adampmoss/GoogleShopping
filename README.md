@@ -17,10 +17,11 @@ Magento Community Edition 1.4 to 1.9
 
 Configure by going to: **System > Configuration > Creare > Google Shopping > Settings**
 
-The extension requires two custom attributes to be created for:
+The extension requires three custom attributes to be created for:
 
 - Brand
 - Google Category
+- GTIN Number
 
 If these attributes do not exist they should be created and mapped here. If a product has no value for either attribute then it will return the default value set here too.
 
